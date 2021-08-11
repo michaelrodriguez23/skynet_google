@@ -1,6 +1,12 @@
 body {
     margin:0px;
-}
+      .advanced-search {
+        hr{
+            border: .5px solid lightgrey;
+        }
+    }
+} 
+
 
 .search-capsule {
     width:400px;
@@ -40,6 +46,12 @@ body {
 margin-top:100px;
 display: flex;
 justify-content: center;
+}
+#logo-small{
+    height:8%;
+    width:8%;
+    margin-top:10px;
+    margin-left:5px;
 }
 .image-title{
     color:rgb(66, 77, 230);
@@ -81,4 +93,33 @@ justify-content: center;
     border:1px solid lightslategrey;
     filter: drop-shadow(0 0 9rem grey);
 }
+}
+// advanced query page
+body{
+    .left {
+        p {
+            margin-top:20px;
+        }
+    }
+    .right {
+        input {
+           
+            font-size: 18px;
+        }
+    }
+
+}
+.advance-query-wrapper {
+    display: flex;
+    justify-content:left;
+
+}
+.left{
+    flex: 3;
+    margin-left: 10px;
+}
+
+ul { 
+
+    list-style-type: none;
 }

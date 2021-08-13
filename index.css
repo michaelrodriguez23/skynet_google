@@ -106,12 +106,38 @@ body .right input {
 }
 
 .left {
-  flex: 3;
   margin-left: 10px;
 }
 
 ul {
   list-style-type: none;
+  width: 400px;
+}
+ul li {
+  margin-top: 20px;
+}
+ul input {
+  float: right;
+  clear: both;
+  width: 200px;
+  height: 20px;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+#advanced-title {
+  margin-left: 30px;
+  margin-top: 20px;
+  color: red;
+  font-size: 20px;
+}
+
+#advance-header {
+  margin-left: 30px;
+}
+
+#advance-button {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */

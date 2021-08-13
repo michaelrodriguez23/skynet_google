@@ -94,6 +94,7 @@ justify-content: center;
     filter: drop-shadow(0 0 9rem grey);
 }
 }
+
 // advanced query page
 body{
     .left {
@@ -115,11 +116,36 @@ body{
 
 }
 .left{
-    flex: 3;
     margin-left: 10px;
 }
 
 ul { 
-
+    li{
+        margin-top: 20px;
+    }
     list-style-type: none;
+    width: 400px; 
+        input{
+            float: right;
+            clear: both;
+            width: 200px;
+            height:20px;
+            font-size: 17px;
+            padding-left: 10px;
+ 
+        }
+
 }
+#advanced-title {
+    margin-left:30px;
+    margin-top:20px;
+    color:red;
+    font-size: 20px;
+}
+#advance-header {
+    margin-left:30px;
+}
+#advance-button{
+    margin-top: 20px;
+}
+

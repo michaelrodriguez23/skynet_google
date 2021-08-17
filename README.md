@@ -1,4 +1,4 @@
 # skynet_google
 
-##DEMO
+DEMO
 ![demo GIF](demo.gif)

@@ -8,6 +8,9 @@
     <title>Advance Search</title>
 </head>
 <body>
+    <div class="nav">
+        <a id="go-back-adv" href="index.html"> Go Back To Google</a>
+     </div>
     <div id="sm-logo-container">
         <img id="logo-small"src="logo.png" alt="google-logo">
     </div>
@@ -24,25 +27,26 @@
         <ul>
             <li>
                 <label>all these words:</label>
-                <input type="text" name="q">
+                <input type="text" name="as_q">
             </li>
              <li>
                 
                 <label> this exact word or phrase:</label>
-                <input type="text" name="q"  value="">
+                <input type="text" name="as_epq"  value="">
             </li>
              <li>
                 <label> any of these words:</label>
-                <input type="text" name="q">
+                <input type="text" name="as_oq">
             </li>
              <li>
-                <label> numbers ranging from: </label>
-                <input type="text" value="">
-                <button id="advance-button">Advanced Search</button>
+                <label> none of these words </label>
+                <input type="text" name="as_eq"value="" >
+             
             </li>
+            <button class="buttons" id="advance-button">Advanced Search</button>
         </ul>
 
-        
+
        
      
     </form>
